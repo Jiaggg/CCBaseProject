@@ -15,7 +15,12 @@ class UILayerStart extends CC.CCUILayerBaseClass {
     }
 
 	private btnTouchHandler(event:egret.TouchEvent):void {
-		UILayerMamager.getInstance().changeLayer(UILayerMamager.UILAYER_GAMMING);
+		let sendMsg = CC.CCProtoBufClass.getInstance().BuildClass("SendMsg ");
+		sendMsg.id = 10;
+		sendMsg.name = "lll";
+		
+		
+		// UILayerMamager.getInstance().changeLayer(UILayerMamager.UILAYER_GAMMING);
 	}
 
 	public update(dt:number):void{

@@ -10,8 +10,8 @@
 		"promise/bin/promise.js"
 	],
 	"game": [
-		"bin-debug/CC/CCUILayerManager.js",
 		"bin-debug/CC/CCUILayerBaseClass.js",
+		"bin-debug/CC/CCUILayerManager.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
