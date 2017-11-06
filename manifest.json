@@ -7,17 +7,37 @@
 		"libs/modules/eui/eui.js",
 		"libs/modules/tween/tween.js",
 		"libs/modules/socket/socket.js",
-		"promise/bin/promise.js"
+		"promise/bin/promise.js",
+		"libs/protobuf/protobuf.js"
 	],
 	"game": [
 		"bin-debug/CC/CCUILayerBaseClass.js",
 		"bin-debug/CC/CCUILayerManager.js",
-		"bin-debug/AssetAdapter.js",
-		"bin-debug/LoadingUI.js",
+		"bin-debug/Mod/Panel/PanelManager.js",
 		"bin-debug/Main.js",
 		"bin-debug/ThemeAdapter.js",
 		"bin-debug/UILayerGamming.js",
 		"bin-debug/UILayerMamager.js",
-		"bin-debug/UILayerStart.js"
+		"bin-debug/UILayerStart.js",
+		"bin-debug/WaitPanel.js",
+		"bin-debug/CC/CCProtoBufClass.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Mod/Panel/BasePanel.js",
+		"bin-debug/Mod/Panel/PanelData.js",
+		"bin-debug/Util/Net/SocketManager.js",
+		"bin-debug/Mod/Panel/PopUpManager.js",
+		"bin-debug/Util/BitmapBlink.js",
+		"bin-debug/Util/EffectUtils.js",
+		"bin-debug/Util/GameConfig.js",
+		"bin-debug/Util/Global.js",
+		"bin-debug/Util/md5.js",
+		"bin-debug/Util/RegUtils.js",
+		"bin-debug/Util/TipsUtils.js",
+		"bin-debug/Util/UIEnum.js",
+		"bin-debug/Util/Listener/LEvent.js",
+		"bin-debug/Util/Listener/LListener.js",
+		"bin-debug/Util/Net/Network.js",
+		"bin-debug/GameScene.js"
 	]
 }
