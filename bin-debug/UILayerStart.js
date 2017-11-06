@@ -22,14 +22,14 @@ var UILayerStart = (function (_super) {
         _super.prototype.createChildren.call(this);
     };
     UILayerStart.prototype.onComplete = function () {
-        this._play_btn = this["play_btn"];
-        this._play_btn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.btnTouchHandler, this);
+        // this._play_btn = this["play_btn"];
+        // this._play_btn.addEventListener(egret.TouchEvent.TOUCH_TAP,this.btnTouchHandler,this);
     };
     UILayerStart.prototype.btnTouchHandler = function (event) {
-        var sendMsg = CC.CCProtoBufClass.getInstance().BuildClass("SendMsg ");
-        sendMsg.id = 10;
-        sendMsg.name = "lll";
-        // UILayerMamager.getInstance().changeLayer(UILayerMamager.UILAYER_GAMMING);
+        // let sendMsg = CC.CCProtoBufClass.getInstance().BuildClass("SendMsg ");
+        // sendMsg.id = 10;
+        // sendMsg.name = "lll";
+        UILayerMamager.getInstance().changeLayer(UILayerMamager.UILAYER_GAMMING);
     };
     UILayerStart.prototype.update = function (dt) {
     };

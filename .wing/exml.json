@@ -1,0 +1,11 @@
+{
+  "global": {
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": 20,
+    "globalAutoLayerMarkEnable": true
+  },
+  "15f9262467e": {
+    "guideLinesEnabled": true
+  }
+}

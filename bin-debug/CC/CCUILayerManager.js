@@ -74,13 +74,10 @@ var CC;
             }
         };
         CCUILayerManager.prototype.onResourceLoadError = function (event) {
-            console.log("yyyyyyyyyyyy");
         };
         CCUILayerManager.prototype.onResourceProgress = function (event) {
-            console.log("uuuuuuuuuuuu");
         };
         CCUILayerManager.prototype.onItemLoadError = function (event) {
-            console.log("qqqqqqqqqqqq");
         };
         return CCUILayerManager;
     }());

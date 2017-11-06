@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="UILayerStartSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Button id="play_btn" label="PLAY" skinName="skins.ButtonSkin" horizontalCenter="0" verticalCenter="302"/>
-	<e:Button label="Button" x="447" y="841"/>
+<e:Skin class="UILayerStartSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15f9262467e"/>
+	<e:Image source="assets_json.bg" x="0" y="0" width="720" height="1280"/>
+	<e:Button id="btn_quiet" label="静" x="69.1" y="344.38" enabled="true" height="50" scaleX="2" scaleY="2"/>
+	<e:Button id="btn_heart" label="心" x="69.1" y="594.38" enabled="true" scaleX="2" scaleY="2"/>
+	<e:Button id="btn_zen" label="禅" x="69.1" y="844.38" enabled="true" scaleX="2" scaleY="2"/>
 </e:Skin>

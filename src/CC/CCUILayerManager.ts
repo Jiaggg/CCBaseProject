@@ -87,16 +87,13 @@ module CC {
 	}
 
 	private onResourceLoadError(event:RES.ResourceEvent):void{
-		console.log("yyyyyyyyyyyy");
 		
 	}
 
 	private onResourceProgress(event:RES.ResourceEvent):void{
-console.log("uuuuuuuuuuuu");
 	}
 
 	private onItemLoadError(event:RES.ResourceEvent):void{
-		console.log("qqqqqqqqqqqq");
 	}
 	}
 

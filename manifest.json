@@ -17,15 +17,15 @@
 		"bin-debug/Main.js",
 		"bin-debug/ThemeAdapter.js",
 		"bin-debug/UILayerGamming.js",
-		"bin-debug/UILayerMamager.js",
 		"bin-debug/UILayerStart.js",
 		"bin-debug/WaitPanel.js",
 		"bin-debug/CC/CCProtoBufClass.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/LoadingUI.js",
+		"bin-debug/CC/UILayerMamager.js",
 		"bin-debug/Mod/Panel/BasePanel.js",
 		"bin-debug/Mod/Panel/PanelData.js",
-		"bin-debug/Util/Net/SocketManager.js",
+		"bin-debug/GameScene.js",
 		"bin-debug/Mod/Panel/PopUpManager.js",
 		"bin-debug/Util/BitmapBlink.js",
 		"bin-debug/Util/EffectUtils.js",
@@ -38,6 +38,6 @@
 		"bin-debug/Util/Listener/LEvent.js",
 		"bin-debug/Util/Listener/LListener.js",
 		"bin-debug/Util/Net/Network.js",
-		"bin-debug/GameScene.js"
+		"bin-debug/Util/Net/SocketManager.js"
 	]
 }

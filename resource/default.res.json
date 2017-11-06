@@ -3,6 +3,10 @@
 		{
 			"keys": "default_ui_button_down_png,default_ui_button_up_png,default_ui_checkbox_select_up_png,default_ui_checkbox_select_down_png,default_ui_checkbox_select_disabled_png,default_ui_radiobutton_select_disabled_png,default_ui_radiobutton_select_down_png,default_ui_radiobutton_select_up_png,default_ui_button_disable_png,default_ui_checkbox_unselect_disable_png,default_ui_checkbox_unselect_down_png,default_ui_checkbox_unselect_up_png,default_ui_item_render_disable_png,default_ui_item_render_down_png,default_ui_item_render_up_png,default_ui_pannel_border_png,default_ui_pannel_header_png,default_ui_progressbar_thumb_png,default_ui_progressbar_track_png,default_ui_radiobutton_unselect_up_png,default_ui_radiobutton_unselect_down_png,default_ui_radiobutton_unselect_disable_png,default_ui_textinput_bg_png,default_ui_toggleswitch_off_disable_png,default_ui_toggleswitch_off_down_png,default_ui_toggleswitch_off_up_png,default_ui_toggleswitch_on_disable_png,default_ui_toggleswitch_on_down_png,default_ui_toggleswitch_on_up_png,default_ui_toggleswitch_handle_png,default_ui_hscrollbar_thumb_png,default_ui_vscrollbar_thumb_png,default_ui_hslider_thumb_png,default_ui_hslider_track_png,default_ui_vslider_thumb_png,default_ui_vslider_track_png",
 			"name": "default_uiskin"
+		},
+		{
+			"name": "preload",
+			"keys": "assets_json,bg_jpg,egret_icon_png"
 		}
 	],
 	"resources": [
@@ -185,6 +189,22 @@
 			"url": "assets/default_ui/default_ui_vslider_track.png",
 			"type": "image",
 			"name": "default_ui_vslider_track_png"
+		},
+		{
+			"name": "assets_json",
+			"type": "sheet",
+			"url": "assets/UI/assets.json",
+			"subkeys": "start,pause,arcade_bg,point_bg,zen_bg,memory_bg,gold,btn_type,cell_bg,word_spell_bg,bg_1,bg_2,bg_3,bg,acceptBtn,alertBg,bg2,cancelBtn,continueBtn,fbBtn,fontImg,helpBtn,loadingCircle1,loadingCircle2,logoImg,menueBtn,musicBtn,nextBtn,panelBg,pauseBtn,rankBtn,retryBtn,setBtn,shareBtn,shopBtn,soundBtn,starImg,startBtn,switchBar,switchOff,switchOn,tipsBg,titleBg,close,btn_ok,tips_bg,icon,restart,restart_by_gold,img_pause_f"
+		},
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
 		}
 	]
 }
